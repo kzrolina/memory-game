@@ -1,0 +1,26 @@
+/* Estilos para telas grandes (desktop) */
+@media only screen and (min-width: 1200px) {
+    body {
+        font-size: 18px; /* Exemplo de ajuste de fonte para telas grandes */
+    }
+
+    /* Adicione estilos específicos para telas grandes aqui */
+}
+
+/* Estilos para telas médias (tablets) */
+@media only screen and (max-width: 1199px) and (min-width: 768px) {
+    body {
+        font-size: 16px; /* Exemplo de ajuste de fonte para tablets */
+    }
+
+    /* Adicione estilos específicos para tablets aqui */
+}
+
+/* Estilos para telas pequenas (celulares) */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 14px; /* Exemplo de ajuste de fonte para celulares */
+    }
+
+    /* Adicione estilos específicos para celulares aqui */
+}
